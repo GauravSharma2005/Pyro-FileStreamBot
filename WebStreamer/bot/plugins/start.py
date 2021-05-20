@@ -57,7 +57,7 @@ async def start(b, m):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton('Bots Channel', url='https://t.me/BestzBotUpdate'), InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/Davoe-D')]
+                    [InlineKeyboardButton('Developer', url='https://t.me/BestzBrothers')]
                 ]
             ),
             disable_web_page_preview=True
@@ -178,7 +178,7 @@ async def help_handler(bot, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz"), InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotUpdate")],
-                [InlineKeyboardButton("Developer", url="https://t.me/Davoe-D")]
+                [InlineKeyboardButton("Developer", url="https://t.me/BestzBrothers")]
             ]
         )
     )
