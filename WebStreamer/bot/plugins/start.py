@@ -26,7 +26,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/naija_bestz).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Developer](https://t.me/IAmironBoy).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -56,8 +56,8 @@ async def start(b, m):
             text='🙋 Hey Bruh!!\nI am Instant Telegram File to Link Generator Bot.\n\nSend me any file & see the magic!',
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton('Bots Channel', url='https://t.me/BestzBotUpdate'), InlineKeyboardButton('Support Group', url='https://t.me/naija_bestz')],
-                    [InlineKeyboardButton('Developer', url='https://t.me/BestzBrothers')]
+                    [InlineKeyboardButton('Bot Creater', url='https://t.me/IAmironBoy'), InlineKeyboardButton('Movies Channel', url='https://t.me/IMDbFilms4Us')],
+                    [InlineKeyboardButton('Developer', url='https://t.me/IAmironBoy')]
                 ]
             ),
             disable_web_page_preview=True
@@ -69,7 +69,7 @@ async def start(b, m):
                 if user.status == "kicked":
                     await b.send_message(
                         chat_id=m.chat.id,
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/naija_bestz).",
+                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/IAmironBoy).",
                         parse_mode="markdown",
                         disable_web_page_preview=True
                     )
@@ -145,7 +145,7 @@ async def help_handler(bot, message):
             if user.status == "kicked":
                 await bot.send_message(
                     chat_id=message.chat.id,
-                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/naija_bestz).",
+                    text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/IAmironBoy).",
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -177,8 +177,8 @@ async def help_handler(bot, message):
         disable_web_page_preview=True,
         reply_markup=InlineKeyboardMarkup(
             [
-                [InlineKeyboardButton("Support Group", url="https://t.me/naija_bestz"), InlineKeyboardButton("Bots Channel", url="https://t.me/BestzBotUpdate")],
-                [InlineKeyboardButton("Developer", url="https://t.me/BestzBrothers")]
+                [InlineKeyboardButton("Bot Creat", url="https://t.me/IAmironBoy, InlineKeyboardButton("Movies Channel", url="https://t.me/IMDbFilms4Us")],
+                [InlineKeyboardButton("Developer", url="https://t.me/IAmironBoy")]
             ]
         )
     )
